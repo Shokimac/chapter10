@@ -5,12 +5,22 @@
   color: #6c6b6b;
 }
 
+.containts_box {
+  width: fit-content;
+  margin: 0 auto;
+}
+
 .containts {
+  display: block;
   position: relative;
   border: 1px solid #c0c0c0;
   float: left;
   width: 300px;
-  margin: 50px 0;
+  margin: 50px auto;
+}
+
+.containts:nth-child(1) {
+  margin-left: auto;
 }
 
 .containts:nth-child(2) {
